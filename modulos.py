@@ -1,5 +1,11 @@
 def media(valores):
     return sum(valores) / len(valores)
 
+def soma(valores):
+    return sum(valores)
 
-calculo = media([10, 20, 30, 40, 50])
+def multiplicacao(valores):
+    resultado = 1
+    for valor in valores:
+        resultado *= valor
+    return resultado
